@@ -1,0 +1,34 @@
+{
+  "name": "kii-cloud-hello-kii",
+  "version": "0.0.1",
+  "description": "This simple app shows you how to create a user, login, and create an object in a bucket.",
+  "main": "lib/index.js",
+  "bin": {
+    "hello-kii": "bin/hello-kii.js"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rgravina/HelloKii-Node.git"
+  },
+  "keywords": [
+    "kii",
+    "cloud"
+  ],
+  "authors": [
+    "Robert Gravina"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rgravina/HelloKii-Node/issues"
+  },
+  "homepage": "https://github.com/rgravina/HelloKii-Node",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "inquirer": "^0.11.0",
+    "kii-cloud-sdk": "^2.1.15",
+    "lodash": "^3.10.1"
+  }
+}

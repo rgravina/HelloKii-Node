@@ -8,11 +8,20 @@ If downloaded from the developer portal, the app id, key and site for the 'Kii T
 
 To run directly from this repository, please replace these values in `lib/modules/init.js`:
 
+From:
 ```
 Kii.initializeWithSite(
   "__KII_APP_ID__",
   "__KII_APP_KEY__",
-  "__KII_APP_SITE__"
+  __KII_APP_SITE__
+);
+```
+To:
+```
+Kii.initializeWithSite(
+  "<app id>",
+  "<app key>",
+  KiiSite.US
 );
 ```
 

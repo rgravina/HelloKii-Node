@@ -4,12 +4,14 @@ This simple app shows you how to create a user, login, and create an object in a
 
 ## Installation
 
+### From the developer portal
 If downloaded from the developer portal, the app id, key and site for the 'Kii Tutorial' app will be entered in the file `lib/modules/init.js`. 
 
+### From the Github repository
 To run directly from this repository, please replace these values in `lib/modules/init.js`:
 
 From:
-```
+```javascript
 Kii.initializeWithSite(
   "__KII_APP_ID__",
   "__KII_APP_KEY__",
@@ -17,7 +19,7 @@ Kii.initializeWithSite(
 );
 ```
 To:
-```
+```javascript
 Kii.initializeWithSite(
   "<app id>",
   "<app key>",

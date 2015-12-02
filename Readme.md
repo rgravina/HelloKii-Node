@@ -33,9 +33,3 @@ To run without installing via `npm`, run:
 ```
 node bin/hello-kii.js
 ```
-
-To install as an `npm` package from this repository:
-```
-npm install -g .
-./hello-kii
-```
